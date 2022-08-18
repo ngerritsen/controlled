@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Controlled</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Minimal toolkit to use Express with DI" />
+    <meta property="og:image" content="images/thumb.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+    />
+    <link rel="icon" href="images/logo.svg" />
+    <style>
+      .sidebar > h1 img {
+        max-width: 60px;
+      }
+
+      :root {
+        --theme-color: #e71151;
+        --heading-h1-font-weight: bold;
+        --heading-h2-font-weight: bold;
+        --border-radius-s: 3px;
+        --border-radius-m: 5px;
+        --border-radius-l: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "Controlled",
+        logo: "images/logo.svg",
+        subMaxLevel: 2,
+        loadNavbar: true,
+        loadSidebar: true,
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/themes/prism-tomorrow.min.css"
+    />
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  </body>
+</html>
